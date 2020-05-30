@@ -1,0 +1,194 @@
+{"parties": [
+  {
+    "name": "Processor",
+    "transactions": [
+      {
+        "receiver": "Processor",
+        "sender": "Distributor",
+        "price": 20,
+        "timestamp": "03/01/2020 17:27:23",
+        "hashcode": "722073409",
+        "successful": true
+      },
+      {
+        "product": "Apple",
+        "receiver": "Distributor",
+        "sender": "Processor",
+        "timestamp": "03/01/2020 17:27:23",
+        "hashcode": "267705940",
+        "successful": true
+      },
+      {
+        "receiver": "Storage",
+        "sender": "Processor",
+        "price": 20,
+        "timestamp": "03/01/2020 17:27:23",
+        "hashcode": "-1025643146",
+        "successful": true
+      },
+      {
+        "receiver": "Processor",
+        "sender": "Distributor",
+        "price": 20,
+        "timestamp": "03/01/2020 17:27:23",
+        "hashcode": "-1401432023",
+        "successful": true
+      },
+      {
+        "product": "Apple",
+        "receiver": "Distributor",
+        "sender": "Processor",
+        "timestamp": "03/01/2020 17:27:23",
+        "hashcode": "-973575795",
+        "successful": true
+      },
+      {
+        "receiver": "Storage",
+        "sender": "Processor",
+        "price": 20,
+        "timestamp": "03/01/2020 17:27:23",
+        "hashcode": "-1568088183",
+        "successful": true
+      }
+    ],
+    "products": [{
+      "name": "Apple",
+      "current_state": "Sold",
+      "params": [
+        {
+          "chemical_processing_degree": 50,
+          "processing_temperature": 0
+        },
+        {
+          "type_of_packaging": "POLYETHYLENE",
+          "selling_place": "FRUIT SECTION"
+        },
+        {
+          "storage_humidity": 40,
+          "storage_temperature": 15,
+          "storage_time": 1
+        }
+      ],
+      "price": 20
+    }]
+  },
+  {
+    "name": "Storage",
+    "transactions": [
+      {
+        "receiver": "Storage",
+        "sender": "Processor",
+        "price": 20,
+        "timestamp": "03/01/2020 17:27:23",
+        "hashcode": "-1025643146",
+        "successful": true
+      },
+      {
+        "product": "Apple",
+        "receiver": "Processor",
+        "sender": "Storage",
+        "timestamp": "03/01/2020 17:27:23",
+        "hashcode": "-354219343",
+        "successful": true
+      },
+      {
+        "receiver": "Farmer",
+        "sender": "Storage",
+        "price": 20,
+        "timestamp": "03/01/2020 17:27:23",
+        "hashcode": "1908312468",
+        "successful": true
+      },
+      {
+        "receiver": "Storage",
+        "sender": "Processor",
+        "price": 20,
+        "timestamp": "03/01/2020 17:27:23",
+        "hashcode": "-1568088183",
+        "successful": true
+      },
+      {
+        "product": "Apple",
+        "receiver": "Processor",
+        "sender": "Storage",
+        "timestamp": "03/01/2020 17:27:23",
+        "hashcode": "1895712947",
+        "successful": true
+      },
+      {
+        "receiver": "Farmer",
+        "sender": "Storage",
+        "price": 20,
+        "timestamp": "03/01/2020 17:27:23",
+        "hashcode": "-1897940940",
+        "successful": true
+      }
+    ],
+    "products": [
+      {
+        "name": "Milk",
+        "current_state": "Stored",
+        "params": [],
+        "price": 45
+      },
+      {
+        "name": "Apple",
+        "current_state": "Sold",
+        "params": [
+          {
+            "chemical_processing_degree": 50,
+            "processing_temperature": 0
+          },
+          {
+            "type_of_packaging": "POLYETHYLENE",
+            "selling_place": "FRUIT SECTION"
+          },
+          {
+            "storage_humidity": 40,
+            "storage_temperature": 15,
+            "storage_time": 1
+          }
+        ],
+        "price": 20
+      }
+    ]
+  },
+  {
+    "name": "Farmer",
+    "transactions": [
+      {
+        "receiver": "Farmer",
+        "sender": "Storage",
+        "price": 20,
+        "timestamp": "03/01/2020 17:27:23",
+        "hashcode": "1908312468",
+        "successful": true
+      },
+      {
+        "product": "Apple",
+        "receiver": "Storage",
+        "sender": "Farmer",
+        "timestamp": "03/01/2020 17:27:23",
+        "hashcode": "-1929676968",
+        "successful": true
+      },
+      {
+        "receiver": "Farmer",
+        "sender": "Storage",
+        "price": 20,
+        "timestamp": "03/01/2020 17:27:23",
+        "hashcode": "-1897940940",
+        "successful": true
+      },
+      {
+        "product": "Apple",
+        "receiver": "Storage",
+        "sender": "Farmer",
+        "timestamp": "03/01/2020 17:27:23",
+        "hashcode": "68503731",
+        "successful": true
+      }
+    ],
+    "products": []
+  }
+]}

@@ -1,0 +1,113 @@
+{
+  "name": "Seller",
+  "transactions": [
+    {
+      "receiver": "Seller",
+      "sender": "Customer",
+      "price": 45,
+      "timestamp": "07/01/2020 16:52:17",
+      "hashcode": "-1178335235",
+      "successful": true
+    },
+    {
+      "receiver": "Distributor",
+      "sender": "Seller",
+      "price": 45,
+      "timestamp": "07/01/2020 16:52:17",
+      "hashcode": "-1204108326",
+      "successful": true
+    },
+    {
+      "receiver": "Processor",
+      "sender": "Distributor",
+      "price": 45,
+      "timestamp": "07/01/2020 16:52:17",
+      "hashcode": "722073409",
+      "successful": true
+    },
+    {
+      "receiver": "Storage",
+      "sender": "Processor",
+      "price": 45,
+      "timestamp": "07/01/2020 16:52:17",
+      "hashcode": "-1025643146",
+      "successful": true
+    },
+    {
+      "receiver": "Seller",
+      "sender": "Customer",
+      "price": 45,
+      "timestamp": "07/01/2020 16:52:17",
+      "hashcode": "-159998281",
+      "successful": true
+    },
+    {
+      "product": "Milk",
+      "receiver": "Customer",
+      "sender": "Seller",
+      "timestamp": "07/01/2020 16:52:17",
+      "hashcode": "-1079803824",
+      "successful": false
+    },
+    {
+      "receiver": "Seller",
+      "sender": "Customer",
+      "price": 45,
+      "timestamp": "07/01/2020 16:52:18",
+      "hashcode": "-1720230303",
+      "successful": true
+    },
+    {
+      "receiver": "Distributor",
+      "sender": "Seller",
+      "price": 45,
+      "timestamp": "07/01/2020 16:52:18",
+      "hashcode": "-11576942",
+      "successful": true
+    },
+    {
+      "receiver": "Processor",
+      "sender": "Distributor",
+      "price": 45,
+      "timestamp": "07/01/2020 16:52:18",
+      "hashcode": "2131804846",
+      "successful": true
+    },
+    {
+      "receiver": "Storage",
+      "sender": "Processor",
+      "price": 45,
+      "timestamp": "07/01/2020 16:52:18",
+      "hashcode": "594509070",
+      "successful": true
+    },
+    {
+      "receiver": "Farmer",
+      "sender": "Storage",
+      "price": 45,
+      "timestamp": "07/01/2020 16:52:18",
+      "hashcode": "-2052775403",
+      "successful": true
+    }
+  ],
+  "products": [{
+    "name": "Milk",
+    "current_state": "Sold",
+    "params": [
+      {
+        "chemical_processing_degree": 11,
+        "processing_temperature": 4
+      },
+      {
+        "type_of_packaging": "TETRAPACK",
+        "selling_place": "MILK SECTION"
+      },
+      {
+        "storage_humidity": 0,
+        "storage_temperature": 0,
+        "storage_time": 0
+      }
+    ],
+    "price": 45
+  }]
+}
